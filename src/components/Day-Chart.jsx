@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Day_Chart() {
+function Day_Chart({data,index}) {
+   const dayNames = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   return (
     <div className="day-chart flex flex-col items-center justify-center">
             <div className="lines flex gap-3 items-center">
@@ -12,7 +13,7 @@ function Day_Chart() {
               </div>
               <div className="line rounded-sm h-5 w-1 mt-12 bg-gray-400"></div>
             </div>
-            <h3 className='text-sm text-gray-400 opacity-70'>Mon</h3>
+            <h3 className='text-sm text-gray-400 opacity-70'>{dayNames[index]}</h3>
           </div>
   )
 }

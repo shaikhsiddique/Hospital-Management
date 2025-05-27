@@ -48,7 +48,7 @@ function Sidebar() {
           
           </div>
         </div>
-        <div className="links flex gap-3 items-start mr-4 absolute bottom-10 left-[20%]">
+        <div className="links flex gap-3 items-start mr-4 absolute bottom-10 left-[20%] opacity-45">
             <i class="ri-settings-3-line"></i>
             <h3 className='text-[#231B57]'>Setting</h3>
           </div>
